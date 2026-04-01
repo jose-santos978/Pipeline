@@ -19,7 +19,7 @@ jobs:
     - name: Configurar Python
       uses: actions/checkout@v4
       with:
-        python-version.'3.11'
+        python-version: '3.11'
 
     - name: Instalar depêndencias
       run: |
